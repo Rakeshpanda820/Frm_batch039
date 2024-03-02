@@ -14,11 +14,11 @@ public class Example2 {
 		public void logout() {
 		System.out.println("Logout completed");
 		}
-		@Test(priority=2)
+		@Test
 		public void addemp() {
 		System.out.println("Add new emp");
 		}
-		@Test(priority=1)
+		@Test
 		public void delemp() {
 		System.out.println("Delete emp");
 		}

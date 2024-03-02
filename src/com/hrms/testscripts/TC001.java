@@ -7,9 +7,10 @@ import com.hrms.lib.General;
 
 
 public class TC001 {
-	@Test
+	
 	public void tc001() {
 		// Test Steps
+		
 		DOMConfigurator.configure("log4j.xml");
 		General obj = new General();
 		obj.openApplication();

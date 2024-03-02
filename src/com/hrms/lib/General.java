@@ -25,6 +25,7 @@ driver.findElement(By.name(txt_loginname)).sendKeys(un);
 driver.findElement(By.name(txt_password)).sendKeys(pw);
 driver.findElement(By.name(btn_login)).click();
 System.out.println("Login completed");
+Reporter.log("login completed");
 Log.info("Login completed");
 }
 public void logout() {
